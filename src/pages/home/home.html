@@ -7,6 +7,7 @@
 </ion-header>
 
 <ion-content padding>
-    <ion-input [(ngModel)]="timeout" type="text" value="" placeholder="seconds" ></ion-input>
-    <button (click)="startTimer(timeout)" color="dark" ion-button>Start<ion-icon type="pizza"></ion-icon></button>
+    <button (click)="runDrills()" color="dark" ion-button>Start-icon</button>
+    <ion-label>{{currentTitle}}</ion-label>
+    <ion-label>{{currentTick}}</ion-label>
 </ion-content>
